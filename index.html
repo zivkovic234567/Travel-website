@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Travel</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#entertainment">Entertainment</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            
+            
+        </ul>
+        <ul>
+            <li><a href="#home"><img src="img/logo-img.png"></a></li>
+            <li class="hideOnMobile"><a href="#home">Home</a></li>
+            <li class="hideOnMobile"><a href="#location">Location</a></li>
+            <li class="hideOnMobile"><a href="#entertainment">Entertainment</a></li>
+            <li class="hideOnMobile"><a href="#tours">Tours</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact Us</a></li>
+            <li class="menu-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="img-bg">
+        <div class="home-text">
+            <h1>Explore<br> the Balkans</h1>
+            <h5>Where Cultures Converge, History Resonates, <br>and Adventures Await!"</h5>
+            
+            <a href="#contact" class="btn">Book a trip</a>
+        </div>
+    </section>
+
+
+    <section class="feature">
+        <div class="feture-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/diving.jpg">
+                </div>
+                <h4>Underwater Diving</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/f2.jpg">
+                </div>
+                <h4>Mountain Climbing</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/f3.jpg">
+                </div>
+                <h4>Bike Riding</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/f4.jpg">
+                </div>
+                <h4>Running</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/f5.jpg">
+                </div>
+                <h4>Basketball</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="location" id="location">
+        <h4 class="label">Location</h4>
+        <div class="container">
+            <div class="container-box">
+                <h2 class="heading">Enjoying Nature and Embracing New Environments</h2>
+                <div class="content">
+                    <p>The Balkans are a mosaic of beautiful landscapes that captivates with its diversity and rich history. From imposing mountain peaks to turquoise shores of the Adriatic and Ionian Seas, the Balkans offer unforgettable scenery. Endless forests, clear rivers, and traditional villages contribute to the peace and tranquility of this region. In addition to natural beauty, the Balkans abound in historical monuments that testify to its rich heritage. With its colorful landscapes and rich cultural heritage, the Balkans are a destination that captures the hearts of all travelers.</p>
+                    <a  class="btn" target="_blank" href="https://en.wikivoyage.org/wiki/Balkans">Explore More</a>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="box">
+                    <img src="img/nature2.jpg" alt="">
+                    <div class="text">
+                        <h2>Tara National Park</h2>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/nature5.jpg" alt="">
+                    <div class="text">
+                        <h2>National Park Krka</h2>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/nature3.jpg" alt="">
+                    <div class="text">
+                        <h2>Mostar</h2>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/nature4.jpg" alt="">
+                    <div class="text">
+                        <h2>Kotor</h2>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/nature.jpg" alt="">
+                    <div class="text">
+                        <h2>Ohrid</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="holiday" id="entertainment">
+        <div class="holiday-img">
+            <img src="img/traveller.jpg" alt="">
+        </div>
+        <div class="holiday-text">
+            <h5>Entertainment</h5>
+            <h2>The ultimate adventure awaits!</h2>
+            <p>The Balkans boast a vibrant festival scene, drawing visitors worldwide. From music festivals along the Adriatic to cultural events inland, there's something for everyone. Coastal areas of Croatia, Montenegro, and Albania host diverse music events, while inland festivals celebrate folklore, food, and wine. Each Balkan festival exudes a unique spirit of unity and joy, making them unforgettable experiences.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="tour" id="tours">
+        <div class="center-text">
+            <h2>Popular Tours</h2>
+        </div>
+        <div class="tour-content">
+            <div class="box">
+                <img src="img/t1.jpg">
+                <h6>Bosnia and Herzegovina</h6>
+                <h4>Sarajevo</h4>
+            </div>
+            <div class="box">
+                <img src="img/t2.jpg">
+                <h6>Belgrade</h6>
+                <h4>Serbia</h4>
+            </div>
+            <div class="box">
+                <img src="img/t3.jpg">
+                <h6>Sveti Stefan</h6>
+                <h4>Montenegro</h4>
+            </div>
+        </div>
+
+        <div class="center-btn">
+            <a href="#" class="btn">See Tours</a>
+        </div>
+    </section>
+
+    <div class="wrapper" id="contact">
+        <div class="title">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="contact-form">
+          <div class="input-fields">
+            <input type="text" class="input" placeholder="Name">
+            <input type="text" class="input" placeholder="Email Address">
+            <input type="text" class="input" placeholder="Phone">
+            <input type="text" class="input" placeholder="Subject">
+          </div>
+          <div class="msg">
+            <textarea placeholder="Message"></textarea>
+            <div class="btn">send</div>
+          </div>
+        </div>
+      </div>
+
+
+    <section class="feedback" id="stories">
+        <div class="container">
+            <h2 class="heading">adventurer's voices</h2>
+            <p class="paragraph">
+                Real Stories from Our Visitors
+            </p>
+        </div>
+        <div class="voices">
+            <div class="voice">
+                <div class="profile">
+                    <img src="img/p.jpg" alt="">
+                    <div class="detail">
+                       <li>Marin Smith</li> 
+                       <li>Photograph</li>
+                    </div>
+                </div>
+                <p>"Marvin fell in love with Sarajevo as soon as they stepped into it. They highlighted enjoying the old town, Baščaršija, and the view from the Latin Bridge. They ended the evening at a local concert, admiring the traditional music and dance. Sarajevo enchanted them with its atmosphere and beauty, leaving them with unforgettable memories."</p>
+            </div>
+            <div class="voice">
+                <div class="profile">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="detail">
+                       <li>Sara Johnson</li> 
+                       <li>Blogger</li>
+                    </div>
+                </div>
+                <p>"Sara was thrilled with Belgrade from the moment she arrived. Strolling along the Sava River, exploring Kalemegdan and Knez Mihailova Street offered her magnificent views. She visited bohemian districts like Skadarlija, indulging in Serbian cuisine and lively music. The Saint Sava Temple left a profound impression on her. Each day brought new discoveries, enjoying cafés and galleries, leaving Belgrade with a smile and many beautiful memories."</p>
+            </div>
+            <div class="voice">
+                <div class="profile">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="detail">
+                       <li>Marcus Tiberius</li> 
+                       <li>Vlogger</li>
+                    </div>
+                </div>
+                <p>"Marcus's experience at Sveti Stefan in Montenegro was like stepping into a fairy tale. Enthralled by the luxury and historical charm of this luxurious resort on the Adriatic coast, Marcus felt as if he were stepping back in time as he explored the cobblestone streets and monumental walls. He enjoyed the lavish beaches and crystal-clear sea, spending hours relaxing and sunbathing. He was particularly impressed by the views of nearby Budva and the sense of peace he felt while watching the sunset from the terrace of his villa."</p>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <div class="newsletter-text">
+                <h2>Ready to explore?</h2>
+                <p>Let's go on vacation, make your day</p>
+            </div>
+
+            <form action="">
+                <input type="email" placeholder="Enter your email..." required>
+                <input type="submit" value="Get started" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>MTravel</h4>
+                    <img src="img/logo-img.png"  alt="">
+                </div>
+                <div class="footer-col">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#entertainment">Entertainment</a></li>
+                        <li><a href="#tours">Tours</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#stories">Stories</a></li>
+                        <li><a href="#location">Places</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="copyright">
+        <p>&copy; Copyright 2024 By Milan</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
